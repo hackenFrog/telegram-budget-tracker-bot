@@ -1,3 +1,9 @@
+
+
+"""
+Autor: Arsen Drahomeretskyi
+""""
+
 import os
 from dotenv import load_dotenv
 import telebot
@@ -188,3 +194,4 @@ class BudgetTrackerBot:
 if __name__ == "__main__":
     bot = BudgetTrackerBot(TOKEN)
     bot.start()
+
