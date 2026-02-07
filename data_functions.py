@@ -1,4 +1,5 @@
 """
+Autor: Piotr Osmólski
 Klasy do obsługi danych użytkownika w stylu OOP.
 """
 
@@ -177,3 +178,4 @@ def spend_transaction(chat_id: int, amount: float, desc: str) -> float:
 def last_transactions(chat_id: int, limit: int = 10) -> list[str]:
     """Zwraca ostatnie N transakcji (dla kompatybilności wstecznej)."""
     return tracker.last_transactions(chat_id, limit)
+
